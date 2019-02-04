@@ -16,6 +16,8 @@ is fine with me in some cases.
 
 ## "Why" is the difference-maker
 
+<a target="_blank" href="https://www.amazon.ca/gp/product/1591846447/ref=as_li_tl?ie=UTF8&camp=15121&creative=330641&creativeASIN=1591846447&linkCode=as2&tag=chrisrouffe09-20&linkId=f56c7c33b7278cddc9ddbfcdd8aecb48">Start with Why: How Great Leaders Inspire Everyone to Take Action</a><img src="//ir-ca.amazon-adsystem.com/e/ir?t=chrisrouffe09-20&l=am2&o=15&a=1591846447" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
 If the "Why" is important to me, then it will be worth the effort.  Some of my recent "Whys":
 - Spent hours on a quirky game.  Why?  The game had a good system of accomplishments and things to try next.  It was relaxing and peaked my curiosity
 - Ate a lot of chocolate over the holidays.  Why?  It tasted great, and I loved the sugar-rush
