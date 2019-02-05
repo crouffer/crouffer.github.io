@@ -10,6 +10,8 @@ Imagine what would happen to your thinking if you were to get the best thoughts 
 
 **I have a revolutionary idea: We should all spend 20 minutes a day reading a real book, one that has actually been published.**
 
+![](antique-black-and-white-books-33283.jpg)
+
 Most of us spend a lot of time every day on social media, watching TV, or reading online news. What if we took 20 minutes of that time to read a book instead?
 
 Just now I just took the time to carefully read one page out of a book. That page took me almost exactly 2 minutes to read.  With my lightning quick math skills, I calculate that in 20 minutes I could read 10 pages.  If I were to do that every day I'd be learning from 300 pages of edited, vetted and approved writing per month.  This is text that is proven to marketable and intelligent, or at least convincing enough to spend time and money publishing it. 
