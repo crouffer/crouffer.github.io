@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Chris Rouffer's Blog]]></title><description><![CDATA[Personal musings, interests, and other things that keep me from sleeping too much]]></description><link>https://chrisrouffer.com/</link><generator>RSS for Node</generator><lastBuildDate>Wed, 13 Feb 2019 03:33:32 GMT</lastBuildDate><item><title><![CDATA[Kali Linux on Your Key-Chain USB]]></title><description><![CDATA[Photo by  Brina Blum  on  Unsplash I Keep Breaking Things As a software engineer I am very curious about the computers that I use at home…]]></description><link>https://chrisrouffer.com//kali-persistent-usb/</link><guid isPermaLink="false">https://chrisrouffer.com//kali-persistent-usb/</guid><pubDate>Tue, 12 Feb 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Chris Rouffer's Blog]]></title><description><![CDATA[Personal musings, interests, and other things that keep me from sleeping too much]]></description><link>https://chrisrouffer.com/</link><generator>RSS for Node</generator><lastBuildDate>Wed, 13 Feb 2019 03:39:58 GMT</lastBuildDate><item><title><![CDATA[Kali Linux on Your Key-Chain USB]]></title><description><![CDATA[Photo by  Brina Blum  on  Unsplash I Keep Breaking Things As a software engineer I am very curious about the computers that I use at home…]]></description><link>https://chrisrouffer.com//kali-persistent-usb/</link><guid isPermaLink="false">https://chrisrouffer.com//kali-persistent-usb/</guid><pubDate>Tue, 12 Feb 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/445d8c01f8c1d7fd05a30cce9935bbf1/ff346/brina-blum-156977-unsplash.jpg&quot;
@@ -212,7 +212,7 @@
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;1550025596057&quot;
+        alt=&quot;Partition Modal&quot;
         title=&quot;&quot;
         src=&quot;/static/c38528ca8d4d7eb38fda9a4e2bb357bf/18433/partition-modal.png&quot;
         srcset=&quot;/static/c38528ca8d4d7eb38fda9a4e2bb357bf/653a0/partition-modal.png 148w,
@@ -228,7 +228,41 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Apply the changes - This might take a while, depending on the drive speed and partition size&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;C:%5CUsers%5Cchris%5Csourcecode%5Cgithub.com%5Ccrouffer%5Ccrouffer.github.io%5Ccontent%5Cblog%5Ckali-persistent-usb%5Cpartition-after.png&quot; alt=&quot;1550025870092&quot;&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/06d8a844fb6d7618352ce82723e13f82/948dd/partition-after.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 6.886517943743938%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAABCAYAAADeko4lAAAACXBIWXMAAAsSAAALEgHS3X78AAAAPklEQVQI12O4cePM/xcvHv6/cOfp/5PX7/8/dfP5/5On1vzfsafv/4EjM/4fPTHj/5Hj+DFIzWEgffb0tP8Ad9NAw4ePgCMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Partition After&quot;
+        title=&quot;&quot;
+        src=&quot;/static/06d8a844fb6d7618352ce82723e13f82/fb8a0/partition-after.png&quot;
+        srcset=&quot;/static/06d8a844fb6d7618352ce82723e13f82/1a291/partition-after.png 148w,
+/static/06d8a844fb6d7618352ce82723e13f82/2bc4a/partition-after.png 295w,
+/static/06d8a844fb6d7618352ce82723e13f82/fb8a0/partition-after.png 590w,
+/static/06d8a844fb6d7618352ce82723e13f82/526de/partition-after.png 885w,
+/static/06d8a844fb6d7618352ce82723e13f82/948dd/partition-after.png 1031w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Exit the MiniTool Partition Wizard&lt;/p&gt;
