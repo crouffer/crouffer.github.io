@@ -1,4 +1,299 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Chris Rouffer's Blog]]></title><description><![CDATA[Personal musings, interests, and other things that keep me from sleeping too much]]></description><link>https://chrisrouffer.com/</link><generator>RSS for Node</generator><lastBuildDate>Fri, 08 Feb 2019 01:27:35 GMT</lastBuildDate><item><title><![CDATA[Juggling on a Tightrope]]></title><description><![CDATA[One of the nice things about being busy is it makes you focus on what’s important to you and how you use your time — Lorne Michaels When I…]]></description><link>https://chrisrouffer.com//juggling-vs-balancing/</link><guid isPermaLink="false">https://chrisrouffer.com//juggling-vs-balancing/</guid><pubDate>Thu, 07 Feb 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Chris Rouffer's Blog]]></title><description><![CDATA[Personal musings, interests, and other things that keep me from sleeping too much]]></description><link>https://chrisrouffer.com/</link><generator>RSS for Node</generator><lastBuildDate>Wed, 13 Feb 2019 03:33:12 GMT</lastBuildDate><item><title><![CDATA[Kali Linux on Your Key-Chain USB]]></title><description><![CDATA[Photo by  Brina Blum  on  Unsplash I Keep Breaking Things As a software engineer I am very curious about the computers that I use at home…]]></description><link>https://chrisrouffer.com//kali-persistent-usb/</link><guid isPermaLink="false">https://chrisrouffer.com//kali-persistent-usb/</guid><pubDate>Tue, 12 Feb 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/445d8c01f8c1d7fd05a30cce9935bbf1/ff346/brina-blum-156977-unsplash.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAgX/xAAUAQEAAAAAAAAAAAAAAAAAAAAC/9oADAMBAAIQAxAAAAGtNuQuWKGf/8QAGRABAQADAQAAAAAAAAAAAAAAAQIQEhMh/9oACAEBAAEFAmZmauE6mLNhPf/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAECAQE/ASf/xAAcEAABAwUAAAAAAAAAAAAAAAARAAEQAhIhMnH/2gAIAQEABj8CLo2Hq0pjMf/EABoQAQEBAQADAAAAAAAAAAAAAAEAESExUYH/2gAIAQEAAT8h8aohizmi9B/I6YmwYiIZf//aAAwDAQACAAMAAAAQFw//xAAWEQADAAAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8QapD/xAAWEQADAAAAAAAAAAAAAAAAAAABEBH/2gAIAQIBAT8QKL//xAAaEAEBAAMBAQAAAAAAAAAAAAABEQAhUTFh/9oACAEBAAE/EGkAfLiwLhQUOXG+s5lGgOO8a2Hb5jC3GXP/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;USB Drive&quot;
+        title=&quot;&quot;
+        src=&quot;/static/445d8c01f8c1d7fd05a30cce9935bbf1/f8fb9/brina-blum-156977-unsplash.jpg&quot;
+        srcset=&quot;/static/445d8c01f8c1d7fd05a30cce9935bbf1/e8976/brina-blum-156977-unsplash.jpg 148w,
+/static/445d8c01f8c1d7fd05a30cce9935bbf1/63df2/brina-blum-156977-unsplash.jpg 295w,
+/static/445d8c01f8c1d7fd05a30cce9935bbf1/f8fb9/brina-blum-156977-unsplash.jpg 590w,
+/static/445d8c01f8c1d7fd05a30cce9935bbf1/85e3d/brina-blum-156977-unsplash.jpg 885w,
+/static/445d8c01f8c1d7fd05a30cce9935bbf1/d1924/brina-blum-156977-unsplash.jpg 1180w,
+/static/445d8c01f8c1d7fd05a30cce9935bbf1/9452e/brina-blum-156977-unsplash.jpg 1770w,
+/static/445d8c01f8c1d7fd05a30cce9935bbf1/ff346/brina-blum-156977-unsplash.jpg 5184w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/photos/Bb_X4JgSqIM?utm_source=unsplash&amp;#x26;utm_medium=referral&amp;#x26;utm_content=creditCopyText&quot;&gt;Brina Blum&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/search/photos/usb-drive?utm_source=unsplash&amp;#x26;utm_medium=referral&amp;#x26;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1&gt;I Keep Breaking Things&lt;/h1&gt;
+&lt;p&gt;As a software engineer I am very curious about the computers that I use at home and at work.  I’m always tinkering with my machines, and quite frequently mess things up to the point of needing to rescue myself.&lt;/p&gt;
+&lt;p&gt;Most of the time, when I break something, I reach for a Live Linux DVD.  These have bailed me out numerous times.  However, I am always frustrated that I lose my work when I reboot.  If my fix wasn’t correct, I have to try again from scratch!&lt;/p&gt;
+&lt;p&gt;One of the Live DVDs that I often use is a Kali Linux disc that has an interesting feature:  “Boot With Persistence.”  That sounds promising!&lt;/p&gt;
+&lt;p&gt;If I make a USB drive that had this feature, I could have a little “Linux on a Key-Chain” that I could plug in any time I mucked up my PC/Mac.  Users of Kali Linux might recognize other potential uses for a discrete, portable Kali install.  However, that is for another article that I would likely write using a pseudonym.&lt;/p&gt;
+&lt;h1&gt;Goals&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Boot Kali Linux on any PC or Mac, from my key chain USB drive&lt;/li&gt;
+&lt;li&gt;Have my changes persist across boots, and across machines.  This means that I need to make the persistent storage reside on the USB drive itself, and not some location on the machine’s drives.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1&gt;What You’ll Need&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;A Windows machine - This can also be done from Linux machine, but I can’t currently boot into my Linux because I broke it.  Hence the reason I’m writing this…&lt;/li&gt;
+&lt;li&gt;32 GB USB 3.1 Drive - You can probably use something smaller, but I’m working with what I have on hand&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.kali.org/downloads/&quot;&gt;ISO Image for Kali Linux&lt;/a&gt; - I chose 64-Bit, Version 2018.4&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.partitionwizard.com/free-partition-manager.html&quot;&gt;MiniTool Partition Wizard&lt;/a&gt; - We’ll use this to create the persistence partition on the USB drive&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://sourceforge.net/projects/win32diskimager/&quot;&gt;Win32Disk Imager&lt;/a&gt; - This is used to burn the ISO to the USB drive&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Making the Bootable Drive&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Warning: You are about to erase everything on your USB drive!  Make sure you are paying attention!&lt;/em&gt;&lt;/p&gt;
+&lt;h3&gt;Format the USB Drive&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Choose FAT32 for the file system&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Default allocation size should be fine&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/6cbd29b9789291370fe52754ea3532c4/2a034/format.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 260px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 177.30769230769232%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAjCAYAAACU9ioYAAAACXBIWXMAAAsSAAALEgHS3X78AAAEYklEQVRIx51WaVPiWBT1//+F+Txfp8rq0sbW0ZalgbAEAkkgBMjCvmVhx546c+9DIiqi1VYd38sjObnLuffmot/vo9Fooa4ZqNcbUGQFerWKslxFsSCj3abf9AZcx8a5v16vJ3DB/55+/4ftdofd7gnb3Q6r1Rrr9Qar9Rqb7RbL1QrL5RKbzYawPVr34Hufnp5g2zYu2u02nHYTdbVClmjouQ4WYYDQ9xAGXrTOD/sTCLwZlvOQPG0woQVZM/EznUeyUEWl4cAdh7CH/pdhETqTOQwmbNkuboo2YlIdV4kSUqoNY/ob+nALffQ5auMd1P4S6ZYP3TCJkCzUnQk0ewzdHsHs+2iNFrQGMAfhp2gSGvSMQffXDbLQohhqhQxUpQS5UEA2lcR02MNmtcRiHlDsfIqpj/kJHJ9vVot9DC3KjFGvoVAooqwokIsyNFVDjRLUbDbR6XTguC7cE9ifd8AcvApCTnWlrOD+/h6/0hncxmL4/j2GH1eXUEpFcTMTt1qtdzicGwZruP5soWXBsS20myaapokuWdTtuGhRKDgc4/EYk8nkU/i+/ywbIqyWZRSyaUhZCbqmwtAUlMtlyPk8FosFgjCE53lnMZ/PX1yuVqq4v7uDlEkh9fiATCqORDJJL8giEY+LZLEn7OJbsMvsbuQyE9Z0ncjSyGUzKEpZ5KU0skQmU6JyuZxIkEiC47wDn4uw0T6K4YpqdU31yeD6jfZ0znXLtRySSxynT13es7tQSDKVSgU6WatSt9FUleKpo1wqU0jK4nowGESkvB7A12EYvrhsmk1cX13jB0kmkYhTPG9FTB8fHhCjs5vrb0hSbHv93odWRoRs4ZwyKUBmH3B4exAEAh7tZ7PZ1wj71BMdq41ut0M9zRI6PHbpmPzU+asYCh1S7KTUI3XpItK/kpBzErzZVAh2OmVMz4LvY9LnfkgNluowT/KoVBRqEmUE1DQ5u2vu2KI7fwy+Z0tdnS1lLQpCnisdcnM4HGJImQypY7NU2EWOG7+d13NgS7mmRZbZLXZXKclQqFFkMyRuEjnXOCfjKy7zy6OkTKgBqBRHs2EQTKHDhlEny3tnxXyMqDlwyTBpPl9APp2icssLMeckiayV4bNk3gj5VJZfWcgHbPZoNKJ1LGIyFvvJWaKThJyU4MgK76i0vC+6exB8ZOFxNv8E/GxUKWwhFz3Pjm63K9Y/AUtPyEZkmWLFpEKHRxgMTuDV74NoZY6X5nDUDA4IKQz8ecFYLRdYLuZiz6M1CELh4uK5oXDIeB8Rhm9mRkiz2B5Mkar1kal1kFBayOgOXfdQag0xIn3aJDeThho/z12bLf2QkAe4Sl8TN7KFf3Ma/vr7H8TiEh4UC7eKi55jQaXm++3yEne3t0TcECMgiuGBcK+pvcvjqQfdnaDemUbglzgDqlvS6mG88sr6jbrNW8KD/gLCck4IX7B6/jTx/SBqvIceGfVDnm482d6Cz7M0p7PSe0gnwM/EaeT+D7PRDsC+FDEXAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;format&quot;
+        title=&quot;&quot;
+        src=&quot;/static/6cbd29b9789291370fe52754ea3532c4/2a034/format.png&quot;
+        srcset=&quot;/static/6cbd29b9789291370fe52754ea3532c4/67ba2/format.png 148w,
+/static/6cbd29b9789291370fe52754ea3532c4/2a034/format.png 260w&quot;
+        sizes=&quot;(max-width: 260px) 100vw, 260px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Burn the Kali ISO to the USB Drive&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Open Win32DiskImager&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select the image file to write&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select the target USB Device&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click on ‘Write’, then confirm your selections and click ‘Yes’ when prompted&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/da09cac975a2ade6b61446ae13785652/b1fb7/win32-disk-image.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 488px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 69.87704918032787%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAABu0lEQVQ4y4VTyZaCQAzk/z9tDqMPVGTfVAREFFxPNal2uh/6dOZQdBKS6mxtpXmBPEuQJplCHMUoyxJt2+JyueB8Pr/FMAw4nU7Kr+s6JW+3W1hVVaNpBHWDoR9wPB7VT5Ld7/ePuKnzhuv1jL7vVcxut4OVZRkm3xNMJ1OsigKr1cqgED3P86dzbM8L8du2CIIAi8VC/hWwwjAEQePSdeE4DnzPe8D3sVwu4QlcCQhED4IQvvh67gL23MPXvEQoOn3TNIWlb2MfDoeDSp/QMu37/d6cBr/6oWsfp/iz9xbJmBXZWb4nmTErLTdNo5z1hRrUO3U+ZPZeEa7XayRxAp6cUpIkiOPHpKMoUo1+R/hKbgj5oaGua1RVhVrArEiuSXTJn/BUcsaSbQczKZvZcQAcEsstNxt1819kGiZDDoUEhRCb3owya3etWt7/YDLkXrFPLJMGgqWPZZY/1l9tlLkR6qVwmnoQGymRw4njyDjyHy/VBGmSqmGxMu1DDsbSzyKR48xg27ZZHUdkBtCJL4AX6ACXyy89Zxwvp93zfNmUWO2zxfT50JkyG0v0ouuV0PaxTv+xjTJtJP8BslEQ4RYDfEgAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;win32-disk-image&quot;
+        title=&quot;&quot;
+        src=&quot;/static/da09cac975a2ade6b61446ae13785652/b1fb7/win32-disk-image.png&quot;
+        srcset=&quot;/static/da09cac975a2ade6b61446ae13785652/2a8fe/win32-disk-image.png 148w,
+/static/da09cac975a2ade6b61446ae13785652/19b05/win32-disk-image.png 295w,
+/static/da09cac975a2ade6b61446ae13785652/b1fb7/win32-disk-image.png 488w&quot;
+        sizes=&quot;(max-width: 488px) 100vw, 488px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;The write should take a couple of minute, depending on the image you are using, and the speed of your drive&lt;/p&gt;
+&lt;h3&gt;Add the Persistence Partition&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Install and open MiniTool Partition Manager - It’s going to try to get you to install McAfee and other stuff, but if you unselect the ‘I Agree’ boxes you can get past them&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create an EXT4 partition in the (Unallocated) space left on the USB drive&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ce5d7e1d25866a82ec441e53a3d3e23f/36a60/partition-before.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 7.232401157184186%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAABCAYAAADeko4lAAAACXBIWXMAAAsSAAALEgHS3X78AAAAN0lEQVQI14XDgQnAIAxFQfefzAkUKlLNTyNO8eoGHlx6Fey1KCPIZZDrpHajPY1pQu5I93b6F/xwv0ivmolQXgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Partition - Before&quot;
+        title=&quot;&quot;
+        src=&quot;/static/ce5d7e1d25866a82ec441e53a3d3e23f/fb8a0/partition-before.png&quot;
+        srcset=&quot;/static/ce5d7e1d25866a82ec441e53a3d3e23f/1a291/partition-before.png 148w,
+/static/ce5d7e1d25866a82ec441e53a3d3e23f/2bc4a/partition-before.png 295w,
+/static/ce5d7e1d25866a82ec441e53a3d3e23f/fb8a0/partition-before.png 590w,
+/static/ce5d7e1d25866a82ec441e53a3d3e23f/526de/partition-before.png 885w,
+/static/ce5d7e1d25866a82ec441e53a3d3e23f/36a60/partition-before.png 1037w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Important:  Name the partition ‘persistence’&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c38528ca8d4d7eb38fda9a4e2bb357bf/18433/partition-modal.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 534px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 87.26591760299624%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAAsSAAALEgHS3X78AAADBElEQVQ4y22UbU8TQRDH+12JUSN+F0oMLYm+0wQl+BBDAV+AJopEMQHbw5ZS+nR3vV7vuXe391Dyd3ba0oKS/NjZ2b3Z2dn/tPD8xTOUS+solco0lrBZLmNjYwPr60Vi/R7FO/5isYi1tbVbSqVNFNrtHtrtDuI4ZoQQiKMYSZoiy1KkNCYiQZIkNM+YNM14z/2/IAhRqNcv0WxeYjQawXFcwiYctm3bZizLYqSffZbN+z3XRRiGFCjgZFRVR0HXDXZ4nscbfN+H6zqEe5txkgjOcM7UN7XnN8vSBJo2QEFVNQwGA2Y4HHIGuq7TooYoiviKsVh8yB9LXywwHoe0Jtj2QzHNUP6T1zFNk0+Wm30/oAMM+mDMPtcL+DB5qNyb5xmGpoVG8xrDkQ3DtHHRtdDpzQLKenR7Pc4uy3OYNJe++ZVcfwxV0wkVBgUWVAKHStLpdOBTueS+Md2GM9Roo2O78CiYKwttW5jQBzlllicLJlSjOTf0+nLMRMxrGdc0nQbsdnW0W7+w8+kltg5eE1uoHO+i8r2yQM6XfUv27nEFB8fvYI9aqDdaKPRUC93WEXZ3VvB++zHxCG+3HmD71Qo+vHmAz/urONp/isO9VRxWnvyDXPuy9xCdq69od4dUQ82AY9FLk8PsnGDQ+sa2q54isWsQdhWedgphVZG5ClJnBtkJjZ5xhnB4hjQJoOoUsN/XILWo6hYGQ5ceQDDjKEeaA3EKekUPQUhdMgGSfIpcExkw8kkVAWkzu0Ff1rDT0zAiyRiG1KGBKByTXAKSC7WfkLqL2B+SL02TmcgFZSRYUqZNh/keJpMJmu3+9JVtelmdRpMkYcwELltK9rEUrZRTTLLgviaJpLM+l/3u+iHrNc3yaadIMcpOkKdNITu52xn8g7E0lwFki0rmvRxFIWlZQ+HjSRPHTQfqKETLGKNNdM0QPZovB1kgW0yFoii4urpCv99HraagUa9DaVyj8OPnOarKJaq1Bn5X66gpDeKSubj4P7VaHdXqHx4V2j+3z88V/AVea9VgoJISwwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;1550025596057&quot;
+        title=&quot;&quot;
+        src=&quot;/static/c38528ca8d4d7eb38fda9a4e2bb357bf/18433/partition-modal.png&quot;
+        srcset=&quot;/static/c38528ca8d4d7eb38fda9a4e2bb357bf/653a0/partition-modal.png 148w,
+/static/c38528ca8d4d7eb38fda9a4e2bb357bf/fd081/partition-modal.png 295w,
+/static/c38528ca8d4d7eb38fda9a4e2bb357bf/18433/partition-modal.png 534w&quot;
+        sizes=&quot;(max-width: 534px) 100vw, 534px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Apply the changes - This might take a while, depending on the drive speed and partition size&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;C:%5CUsers%5Cchris%5Csourcecode%5Cgithub.com%5Ccrouffer%5Ccrouffer.github.io%5Ccontent%5Cblog%5Ckali-persistent-usb%5Cpartition-after.png&quot; alt=&quot;1550025870092&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Exit the MiniTool Partition Wizard&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Boot from the USB Drive&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Restart your computer, and do whatever it takes to boot from the USB Drive&lt;/li&gt;
+&lt;li&gt;At the Kali boot screen, select the option for Live USB Persistence”&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The default username and password in Kali:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Username: root&lt;/li&gt;
+&lt;li&gt;Password: toor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Enable Persistence&lt;/h3&gt;
+&lt;p&gt;Once Kali is booted you will need to do the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Start a terminal, and change to root (if you’re not logged in as root already)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;  &lt;code class=&quot;language-text&quot;&gt;sudo su&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Figure out which partition your persistence partition is (mine was /dev/sdb3)&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;fdisk -l&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Mount the partition&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;mkdir -p /mnt/my_usb&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;mount /dev/sdb3 /mnt/my_usb&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Enable persistence on the partition&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;echo &amp;quot;/ union&amp;quot; &amp;gt; /mnt/my_usb/persistence.conf&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Unmount the partition&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;umount /dev/sdb3&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;From now on when you boot ‘Live USB Persistence’ your files from the previous session will remain.&lt;/p&gt;
+&lt;h1&gt;Next Steps&lt;/h1&gt;
+&lt;p&gt;Now that you’ve got a handy “Kali on a Key-Chain” you can customize it to your heart’s content.  Here are a few things I did right away:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Update the system to deal with any possible security problems&lt;/li&gt;
+&lt;li&gt;Add a user, so that I’m not running as root all the time&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Install packages that I frequently use:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;vim&lt;/li&gt;
+&lt;li&gt;git&lt;/li&gt;
+&lt;li&gt;python3&lt;/li&gt;
+&lt;li&gt;NodeJS&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Install Visual Studio Code and a few of my favourite plugins&lt;/li&gt;
+&lt;li&gt;Install my preferred web browser and extensions&lt;/li&gt;
+&lt;li&gt;Clone my repo for this blog, so I could keep editing this file, then push it from my USB distro&lt;/li&gt;
+&lt;li&gt;Finish posting this article from the newly created distribution&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Credits&lt;/h3&gt;
+&lt;p&gt;I spent all weekend trying to get this working with a different distro, then finally stumbled upon the &lt;a href=&quot;https://docs.kali.org/downloading/kali-linux-live-usb-persistence&quot;&gt;Instructions to do it with Kali&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It took some tweaking to make it work from Windows.  There is a &lt;a href=&quot;https://www.youtube.com/watch?v=C-O8UoJA-gw&quot;&gt;nice video of someone demonstrating the process on Youtube&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Juggling on a Tightrope]]></title><description><![CDATA[One of the nice things about being busy is it makes you focus on what’s important to you and how you use your time — Lorne Michaels When I…]]></description><link>https://chrisrouffer.com//juggling-vs-balancing/</link><guid isPermaLink="false">https://chrisrouffer.com//juggling-vs-balancing/</guid><pubDate>Thu, 07 Feb 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/bf509fed0561f12fdf1ac3c835579aca/a8a50/juggler-1938709_1280.jpg&quot;
