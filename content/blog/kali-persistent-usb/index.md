@@ -72,11 +72,11 @@ The write should take a couple of minute, depending on the image you are using, 
 
 * Important:  Name the partition 'persistence'
 
-  ![1550025596057](partition-modal.png)
+  ![Partition Modal](partition-modal.png)
 
 * Apply the changes - This might take a while, depending on the drive speed and partition size
 
-  ![1550025870092](C:\Users\chris\sourcecode\github.com\crouffer\crouffer.github.io\content\blog\kali-persistent-usb\partition-after.png)
+  ![Partition After](partition-after.png)
 
 * Exit the MiniTool Partition Wizard
 
