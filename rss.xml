@@ -1,4 +1,347 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Chris Rouffer's Blog]]></title><description><![CDATA[Personal musings, interests, and other things that keep me from sleeping too much]]></description><link>https://chrisrouffer.com/</link><generator>RSS for Node</generator><lastBuildDate>Wed, 13 Feb 2019 03:40:16 GMT</lastBuildDate><item><title><![CDATA[Kali Linux on Your Key-Chain USB]]></title><description><![CDATA[Photo by  Brina Blum  on  Unsplash I Keep Breaking Things As a software engineer I am very curious about the computers that I use at home…]]></description><link>https://chrisrouffer.com//kali-persistent-usb/</link><guid isPermaLink="false">https://chrisrouffer.com//kali-persistent-usb/</guid><pubDate>Tue, 12 Feb 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Chris Rouffer's Blog]]></title><description><![CDATA[Personal musings, interests, and other things that keep me from sleeping too much]]></description><link>https://chrisrouffer.com/</link><generator>RSS for Node</generator><lastBuildDate>Wed, 08 Apr 2020 18:41:04 GMT</lastBuildDate><item><title><![CDATA[Setting Yourself Up For AWS Success]]></title><description><![CDATA[
+Photo by  Fotis Fotopoulos  on  Unsplash For anyone that is venturing into Cloud-Computing, AWS, or Amazon Web Services, is likely to be on…]]></description><link>https://chrisrouffer.com//aws-account-creation/</link><guid isPermaLink="false">https://chrisrouffer.com//aws-account-creation/</guid><pubDate>Wed, 08 Apr 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHKVULESX//xAAaEAADAQADAAAAAAAAAAAAAAAAARECAxMx/9oACAEBAAEFAvcddHxQbmays//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/AUf/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAZEAACAwEAAAAAAAAAAAAAAAAAEQEQMaH/2gAIAQEABj8ChjfDSK0//8QAHBAAAgICAwAAAAAAAAAAAAAAAAERIRBRYZGh/9oACAEBAAE/IaglSwpbKzrQ1DTgU0+HI7P/2gAMAwEAAgADAAAAEMTv/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERIf/aAAgBAwEBPxCNYyD/xAAXEQADAQAAAAAAAAAAAAAAAAAAAREx/9oACAECAQE/EKnhWf/EAB4QAQEAAQMFAAAAAAAAAAAAAAERACExQVFhcZHw/9oACAEBAAE/EAtBGPJr1yQpgM3OEmur7cAAInlHLNcOrb1hEF53Z//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;two black flat screen computer monitors&quot;
+        title=&quot;&quot;
+        src=&quot;/static/7dcbd534a8015777822b053bb6986ba9/f8fb9/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg&quot;
+        srcset=&quot;/static/7dcbd534a8015777822b053bb6986ba9/e8976/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg 148w,
+/static/7dcbd534a8015777822b053bb6986ba9/63df2/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg 295w,
+/static/7dcbd534a8015777822b053bb6986ba9/f8fb9/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg 590w,
+/static/7dcbd534a8015777822b053bb6986ba9/85e3d/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg 885w,
+/static/7dcbd534a8015777822b053bb6986ba9/d1924/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg 1180w,
+/static/7dcbd534a8015777822b053bb6986ba9/9452e/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg 1770w,
+/static/7dcbd534a8015777822b053bb6986ba9/554a7/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg 6000w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+Photo by &lt;a href=&quot;https://unsplash.com/@ffstop?utm_source=unsplash&amp;#x26;utm_medium=referral&amp;#x26;utm_content=creditCopyText&quot;&gt;Fotis Fotopoulos&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/hacker?utm_source=unsplash&amp;#x26;utm_medium=referral&amp;#x26;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;For anyone that is venturing into Cloud-Computing, AWS, or Amazon Web Services, is likely to be on the short-list of options.  For a number of years AWS has been the largest cloud provider in the world, with no sign of slowing down.  They offer easy access to a ton of great features, and make it really simple to get started.  All you need is an email address and a credit card.  However, there are a few Best-Practices that you should be aware of when creating a new AWS Account.&lt;/p&gt;
+&lt;h2&gt;Golden Rules&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Do Not Use the Root Account&lt;/li&gt;
+&lt;li&gt;Always Use Multi-Factor Authentication&lt;/li&gt;
+&lt;li&gt;Use Minimum Permissions&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In this article we’ll go through the process of creating an account, securing it, and then creating users and roles to grant the permissions needed, without exposing ourselves to excessive risk.&lt;/p&gt;
+&lt;h1&gt;Prerequisites&lt;/h1&gt;
+&lt;h2&gt;Get a Password Manager&lt;/h2&gt;
+&lt;p&gt;Before we we even create the AWS Account lets ensure that we’re managing our passwords properly.  In this day and age, where everything is online, most people have at least 10 services where they need a password.  Many of us have in excess of 100 passwords.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;For good security practices, every one of your passwords should be different!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Obviously, it is not possible for a human to remember 100+ passwords, along with the services that they are used for.  This is where the password manager comes into play.  You, the simple human, have to remember a single, high-quality password.  This password is the key to your vault of other high-quality passwords.&lt;/p&gt;
+&lt;p&gt;There are quite a few password managers on the market, but I have personal experience with the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://https://bitwarden.com/&quot;&gt;BitWarden&lt;/a&gt; - Free&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.lastpass.com/&quot;&gt;LastPass&lt;/a&gt; - Free or Paid&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://1password.com/&quot;&gt;1Password&lt;/a&gt; - Paid&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It doesn’t matter which you choose, as long as you select one.  I’ve personally moved from LastPass to BitWarden, then finally to 1Password, based on the features I needed in my job.&lt;/p&gt;
+&lt;h2&gt;Virtual MFA Device: Google Authenticator&lt;/h2&gt;
+&lt;p&gt;The next piece of software we’ll need to secure our AWS Account is a Virtual Multi-Factor Authentication device.  This will provide you with Time-Based-One-Time Passwords, i.e. a number that changes every minute.&lt;/p&gt;
+&lt;p&gt;For simplicity, I’ll recommend you install Google Authenticator.  It is free, and available for both iOS and Android.&lt;/p&gt;
+&lt;p&gt;If you are using 1Password, you can also use it to manage your MFA tokens, and don’t need to install Authenticator.&lt;/p&gt;
+&lt;h1&gt;Create the Account&lt;/h1&gt;
+&lt;p&gt;If you haven’t yet created an AWS Account, now is the time to do it.  Simply navigate to the &lt;a href=&quot;https://aws.amazon.com/&quot;&gt;AWS Console&lt;/a&gt; and follow the account creation instructions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Make sure to use a strong password, and save the Root Account credentials to your password manager&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Root Account Configuration&lt;/h2&gt;
+&lt;p&gt;The email address you signed up with is known as the “Root Account”.  This is where your AWS Bills are sent.  We’re going to use the Root Account for a few fundamental tasks, then ideally never use it again.
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3c0c368fda1e64df94b7e2ba224ce936/2e866/root-account-warning.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 8.821104699093157%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAAAsSAAALEgHS3X78AAAAY0lEQVQI1zWM2wqAIBBE/f8/tIs9SFHmpZISLJjcLR8Os5xhVnjTws4Sbmk4K+Q/13CGtWNnTY9gFXancPiBoXsrfYoawhsaSIYf/Y+ro55coCwj6zTirnFfI3KhZj5HPGnCC9QAlMrb7yFlAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Warning about using root account&quot;
+        title=&quot;&quot;
+        src=&quot;/static/3c0c368fda1e64df94b7e2ba224ce936/fb8a0/root-account-warning.png&quot;
+        srcset=&quot;/static/3c0c368fda1e64df94b7e2ba224ce936/1a291/root-account-warning.png 148w,
+/static/3c0c368fda1e64df94b7e2ba224ce936/2bc4a/root-account-warning.png 295w,
+/static/3c0c368fda1e64df94b7e2ba224ce936/fb8a0/root-account-warning.png 590w,
+/static/3c0c368fda1e64df94b7e2ba224ce936/526de/root-account-warning.png 885w,
+/static/3c0c368fda1e64df94b7e2ba224ce936/fa2eb/root-account-warning.png 1180w,
+/static/3c0c368fda1e64df94b7e2ba224ce936/2e866/root-account-warning.png 1213w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+The Root Account is all-powerful, and should be used only when necessary.  Every other operation should be done using an IAM User and/or Role.&lt;/p&gt;
+&lt;h3&gt;Enable MFA on the Root Account&lt;/h3&gt;
+&lt;p&gt;While logged in to the Root Account&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Navigate to the &lt;a href=&quot;https://console.aws.amazon.com/iam/home&quot;&gt;Identity and Access Management (IAM) Console&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Click on “Activate MFA on your root account”&lt;/li&gt;
+&lt;li&gt;Under the Multi-factor authentication (MFA) section, follow the instructions to set up Google Authenticator as a Virtual MFA Device for your root account&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Once you’ve set up the MFA, log out, then log back in to the Root Account to ensure it’s working properly.&lt;/p&gt;
+&lt;h3&gt;Enable CloudTrail&lt;/h3&gt;
+&lt;p&gt;AWS CloudTrail is a service which logs all “Interesting” activity in an AWS Account.  This could includes any activity that modifies users, permissions, and resources.  It is your first line of defence when it comes to figuring out what happened, why, and who, in the event of a problem with your account.&lt;/p&gt;
+&lt;p&gt;Without CloudTrail, you can only view management events for the last 90 days.  Enabling one CloudTrail will allow you to view much older events.  You only pay for the S3 storage costs, which will be very minimal (a few cents per month) for normal activity.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Navigate to Services-&gt;CloudTrail to enable CloudTrail for your account&lt;/li&gt;
+&lt;li&gt;Select the S3 bucket, or create an new one for your trail.  S3 Buckets must have globally-unique names, so I recommend you chose a name based on your account name, region, and service (i.e. ‘my-demo-account-us-east1-cloudtrail’)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Create IAM Groups&lt;/h3&gt;
+&lt;p&gt;IAM Groups allow you assign sets of permissions to different IAM Users.  In this example we’re going to create two groups: Administrators and Developers&lt;/p&gt;
+&lt;h4&gt;Adminstrators Group&lt;/h4&gt;
+&lt;p&gt;The Administators group will have full access to the AWS account, and should be limited to users that are responsible for creating other users and assigning their permissions.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Navigate to the &lt;a href=&quot;https://console.aws.amazon.com/iam/home&quot;&gt;IAM Console&lt;/a&gt;, and select “Groups”&lt;/li&gt;
+&lt;li&gt;Set the group name: Administrators, then click Next&lt;/li&gt;
+&lt;li&gt;On the Attach Policy, search for “AdministratorAccess”, and select the checkbox next to the policy, then click “Next Steps”
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1ae82554bb33f7550ffdc7c7499ee2fa/0a5a3/admin-policy-attach.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 14.780405405405405%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAAsSAAALEgHS3X78AAAAqElEQVQI11WP226DMBBE+f//oyqFKq4q4ysQsMEmeThd8lLlYbTao9HuTBO8x4UZO21M94SfV6zsy7aT65NUHmTRdjxYUyanxL7vHMdBzvk1Y4xorTHG0Fhr0ePIV/9N+/HJ7ecXbSyj9VgfMO5fzgkT/zAMdF2HuimUUrRtS9/3jHKnWXOhroZ5ii8QQ6CUwnmenLW+S1gplSQpr3SXb1kWeeTw0vTify/04hwjqn3KAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Attach administrator access policy&quot;
+        title=&quot;&quot;
+        src=&quot;/static/1ae82554bb33f7550ffdc7c7499ee2fa/fb8a0/admin-policy-attach.png&quot;
+        srcset=&quot;/static/1ae82554bb33f7550ffdc7c7499ee2fa/1a291/admin-policy-attach.png 148w,
+/static/1ae82554bb33f7550ffdc7c7499ee2fa/2bc4a/admin-policy-attach.png 295w,
+/static/1ae82554bb33f7550ffdc7c7499ee2fa/fb8a0/admin-policy-attach.png 590w,
+/static/1ae82554bb33f7550ffdc7c7499ee2fa/526de/admin-policy-attach.png 885w,
+/static/1ae82554bb33f7550ffdc7c7499ee2fa/fa2eb/admin-policy-attach.png 1180w,
+/static/1ae82554bb33f7550ffdc7c7499ee2fa/0a5a3/admin-policy-attach.png 1184w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/li&gt;
+&lt;li&gt;Review the group info, then click “Create Group”&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Create your ‘administrator’ User&lt;/h3&gt;
+&lt;p&gt;We’re going to create one administrative IAM user, then log out of our Root Account.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;In the IAM Console, navigate to Users, then click “Add User”&lt;/li&gt;
+&lt;li&gt;Call the user ‘administrator’, and assign it “AWS Management Console access”.  Do not assign it “Programmatic access”, as this would generate a key-pair that could be used to abuse your account (i.e. lock you out and/or cost you lots of money).&lt;/li&gt;
+&lt;li&gt;For simplicity, you can assign a custom password at this point, and unselect “Users must create a new password at next sign-in”&lt;/li&gt;
+&lt;li&gt;Click “Next: Permissions” and add the user to the “Administrators” group&lt;/li&gt;
+&lt;li&gt;Add any tags, as desired&lt;/li&gt;
+&lt;li&gt;Review, then click “Create user”&lt;/li&gt;
+&lt;li&gt;Make note of the signing URL for the AWS Management console (i.e. &lt;a href=&quot;https://123456789098.signin.aws.amazon.com/console&quot;&gt;https://123456789098.signin.aws.amazon.com/console&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Download the .csv file&lt;/li&gt;
+&lt;li&gt;Open the credentials.csv file, and add the new user and URL to your password manager&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Add MFA to your ‘administrator’ User&lt;/h4&gt;
+&lt;p&gt;Before before we finish with the Root Account, we’ll add MFA to our new administrator user account&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;In IAM Users, click on the ‘administrator’ user&lt;/li&gt;
+&lt;li&gt;Navigate to “Security credentials”, then click “Manage” next to the “Assigned MFA device”
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/d563331cc3a126cce7d52b9ec6240091/a987c/assign-admin-mfa.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 58.96774193548387%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAABp0lEQVQoz51S22rCQBDN7/sm6D8oKNgXBW1f/Aeh0GqClySmMfcYYnM53TOwQSk+tAPDZjczZ+acGaNtW5zPZ1iWhev1ijzPEUURPM/DcDhEr9fDYDCA6zjwfV/eecZxDObSeGo3mqZBVVUCSrAkSTpP0xS32w11Xavg5iHxmRtBEAgYT4JMp1OMx2OMRiPM53N5+4sZTDgejzidTgjDUNy2bbiuK7RsRTWNA8TOJy6Hd0T2Bzxrg9QzkUQhHBXnqBjmk6FBWofDQTTU+vCbgAxgYJYqCaIAvuciCpSOri33WGnNXDbAOM5ANGQFdkpA3el/TQC1U9SyLAWYoBwW70VRSLfiWSbF1+s1FosFVqtVpzMxBPDeOFHKwGTacrlEv9/HZrMRJiKPaeLtdYXJZILZ7AWZKqLXpwO8B6IW7Ipv1IcgeZ6p9xyF8igrkJXtQyOaZQfIie73e5iqOofCVeIOckikn6hiXpghVmDFrcZXUuK7Ym7bLXinIY10ttutDGW328mdgASms+vwWiFWfm+/FlsDUvzL5dLtIjsmZZ789wxE37X9ABXokJxDYO8fAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Assign administrator MFA device&quot;
+        title=&quot;&quot;
+        src=&quot;/static/d563331cc3a126cce7d52b9ec6240091/fb8a0/assign-admin-mfa.png&quot;
+        srcset=&quot;/static/d563331cc3a126cce7d52b9ec6240091/1a291/assign-admin-mfa.png 148w,
+/static/d563331cc3a126cce7d52b9ec6240091/2bc4a/assign-admin-mfa.png 295w,
+/static/d563331cc3a126cce7d52b9ec6240091/fb8a0/assign-admin-mfa.png 590w,
+/static/d563331cc3a126cce7d52b9ec6240091/a987c/assign-admin-mfa.png 775w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/li&gt;
+&lt;li&gt;Follow the steps to add Google Authenticator as a Virtual MFA Device&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;At this point we are finished with the basic account setup.  Log out of the Root Account&lt;/strong&gt;&lt;/p&gt;
+&lt;h1&gt;User and Role Creation&lt;/h1&gt;
+&lt;p&gt;Now that we’re done with the basic account setup, we’re going to add some additional groups, roles, and users for our day-to-day operations.  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Log in with your ‘administrator’ account before proceeding&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Customize the Account Signing Link&lt;/h2&gt;
+&lt;p&gt;Rather than using the account number, it’s often helpful to give the account a human-readable alias&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Navigate to the IAM Dashboard&lt;/li&gt;
+&lt;li&gt;Click “Customize” next to the IAM users sign-in link&lt;/li&gt;
+&lt;li&gt;Give your account a memorable name describing the intended use for the account (i.e. ‘companyname-dev-environment’)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;‘Developers’ Group&lt;/h2&gt;
+&lt;p&gt;Developers will need the ability to create and manage resources, but should not need to create new users, or modify permissions.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;In the IAM Groups console, create another group named “Developers”&lt;/li&gt;
+&lt;li&gt;Search for, and assign the “PowerUserAccess” policy&lt;/li&gt;
+&lt;li&gt;Review, then click “Create Group” &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Create the ‘sudoers’ Role&lt;/h2&gt;
+&lt;p&gt;For cases where Developers need to elevate their permissions, we will give them the ability to switch roles temporarily.  If one of our users is logged in, with MFA enabled, they will be able to switch to a role with elevated privileges temporarily.  This will be logged in our CloudTrail so that we can keep an eye on any such activity if necessary.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Make note of your AWS Account Id.  You can find this by clicking on your username, then “My Account”&lt;/li&gt;
+&lt;li&gt;Navigate to the IAM Roles console&lt;/li&gt;
+&lt;li&gt;Click “Create Role”, then select “Another AWS account”&lt;/li&gt;
+&lt;li&gt;Fill in your Account ID and select “Require MFA”
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/10e649ae471ab9c622989c300eab56e9/56b92/sudoers-role.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 39.45857260049221%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABJklEQVQoz21S7WqEMBD0/R+mz1H6o6WlUArlroin8TOK8fxKMt2JJ1wPF0aXxMzOTIzKskRRFKiqCtM0YZ5nrOuKrfwN8vT+H1iqnfD0ksqmxbKs4VzUNA201mjbNpCqPEcnPc+4G6zzuC8SOudCf7/F9aiuayilQOJNmcfzecDrWePjlOP9VODr0iNTOZIkQZZlGIYhELLP0hSlCKHLcRw3QirToqrv+7D49tvhM9b4uTT4TgSZQVWLC3HCbxgLCYOzrgtrxLIsiMici81gV5QSuqmxZVviKgPMZLG6Y8uPUUTGGOygFU5KxQaVcxijgHew1gb1+8GjiwqEOCjeNuVbyZQk7GlznqeQ8yP2Aazo6HegUiPQbYc4jkP4dED1R2+q3xX/ASw8ayAoIWjRAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Create sudoers role&quot;
+        title=&quot;&quot;
+        src=&quot;/static/10e649ae471ab9c622989c300eab56e9/fb8a0/sudoers-role.png&quot;
+        srcset=&quot;/static/10e649ae471ab9c622989c300eab56e9/1a291/sudoers-role.png 148w,
+/static/10e649ae471ab9c622989c300eab56e9/2bc4a/sudoers-role.png 295w,
+/static/10e649ae471ab9c622989c300eab56e9/fb8a0/sudoers-role.png 590w,
+/static/10e649ae471ab9c622989c300eab56e9/526de/sudoers-role.png 885w,
+/static/10e649ae471ab9c622989c300eab56e9/fa2eb/sudoers-role.png 1180w,
+/static/10e649ae471ab9c622989c300eab56e9/56b92/sudoers-role.png 1219w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/li&gt;
+&lt;li&gt;Click “Next: Permissions” and attach “AdministratorAccess” to the role&lt;/li&gt;
+&lt;li&gt;Add tags, if desired, then click “Next: Review”&lt;/li&gt;
+&lt;li&gt;Name the role ‘sudoers’, and review the permissions.  The only “Trusted entities” should be your own Account ID &lt;/li&gt;
+&lt;li&gt;Create the role&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Create ‘Developer’ Users&lt;/h2&gt;
+&lt;p&gt;In the IAM User console, create users for each of the developers on the team (even if it is just you).&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add User&lt;/li&gt;
+&lt;li&gt;Enable “Programmatic access” and “AWS Management Console access”&lt;/li&gt;
+&lt;li&gt;Either assigned a password or let the system generate one for the user&lt;/li&gt;
+&lt;li&gt;Decide whether the password must be changed at the next sign-in&lt;/li&gt;
+&lt;li&gt;On the Permissions page, assign the user to the ‘Developers’ group&lt;/li&gt;
+&lt;li&gt;Tag, Review, then Create the user&lt;/li&gt;
+&lt;li&gt;Download the .csv and provide it to the developer.  Have them add the info to their password manager&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Assign MFA for the User&lt;/h3&gt;
+&lt;p&gt;Before allowing the Developer to change role to ‘sudoers’ they must enabled MFA on their account&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Have the user install Google Authenticator on their mobile device&lt;/li&gt;
+&lt;li&gt;Follow the same steps as the ‘administrator’ user when enabling MFA for each developer.  The user must scan the QR code with their own Authenticator app, then use the provided one-time-password whenever they sign in&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1&gt;Changing Roles&lt;/h1&gt;
+&lt;h2&gt;Switching to ‘sudoers’&lt;/h2&gt;
+&lt;p&gt;Once a user is logged in with MFA, they will be able to switch to the ‘sudoers’ role to elevate their permissions temporarily&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Click on your username (i.e.‘myuser @ companyname-dev-environment’) in the top-right corner of the AWS Management Console&lt;/li&gt;
+&lt;li&gt;Select ‘Switch Role’&lt;/li&gt;
+&lt;li&gt;In the Account field, use the same alias you created earlier (companyname-dev-environment)&lt;/li&gt;
+&lt;li&gt;In the Role field, enter ‘sudoers’&lt;/li&gt;
+&lt;li&gt;Leave the Display Name field default
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/494b3d10500ac32726165b659d26a1d3/c240c/switch-role.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.17021276595745%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABgklEQVQoz5VS206DQBDtb/rmX/ngH/QLTPTN6IsJqeVaWmobyq0gIg13luPOtrQE64ObnMwwzJw5O7MTx3GgKjI0VcVqtULbtqjrGk3TCNv7PYaxoc8YQ9d1mHxsbbxJM0izdyiKAl3XMZ/PIcsyVN6EYuQbhiF8gmma0DRNxMkuFgtYlnUkPOQ1gqRAmpW8S4uGK6Qf1LHv2g5i5JMlVeQTerWCEKNDyTSGIAgQxzFs28Zutztjv98jSRL8dSbEOgSdPM8RRZEoJIKyLM/zqqoKaZqKvHHtL4U9IRWGYYhPTup53mUJHEQ+JryqsE/YbDZYLpfwfV8Q1C1DXtTIswJ1VQpiGsW/FBZFIRSakoRIfkbhvsJyVTy8yJhOpyKn4Y1a1gkMVV6dIS3mm18r5ovJIgdV6uLrEGHrhliv11eXIWpJ4fAp9M+B5kT+OXlUnGQ1nrQEjxxk6RsdKWaXKw83TI/Ydd1TnJ3+dagaxpVWMLwMN3cabu91YU0/P96M5/0AwnxMl2VlLygAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Switch role fields&quot;
+        title=&quot;&quot;
+        src=&quot;/static/494b3d10500ac32726165b659d26a1d3/fb8a0/switch-role.png&quot;
+        srcset=&quot;/static/494b3d10500ac32726165b659d26a1d3/1a291/switch-role.png 148w,
+/static/494b3d10500ac32726165b659d26a1d3/2bc4a/switch-role.png 295w,
+/static/494b3d10500ac32726165b659d26a1d3/fb8a0/switch-role.png 590w,
+/static/494b3d10500ac32726165b659d26a1d3/c240c/switch-role.png 705w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/li&gt;
+&lt;li&gt;Click ‘Switch Role’&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Note: You only need to enter the data once for the sudoers role.  After that it will appear in the user’s Role History when they click on their user name&lt;/p&gt;
+&lt;h2&gt;Returning to Normal User&lt;/h2&gt;
+&lt;p&gt;When a user has switched to ‘sudoers’, they can switch back by clicking on ‘sudoers @ companyname-dev-environment’, then selecting ‘Back to username’&lt;/p&gt;
+&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;The concepts in this article can be extended to include additional groups and roles, with the permissions needed for specific tasks.  Always strive to use an account/role with the least permissions possible, use multi-factor authentication for all AWS access, and avoid using the Root Account for anything other than paying your AWS bill.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Kali Linux on Your Key-Chain USB]]></title><description><![CDATA[Photo by  Brina Blum  on  Unsplash I Keep Breaking Things As a software engineer I am very curious about the computers that I use at home…]]></description><link>https://chrisrouffer.com//kali-persistent-usb/</link><guid isPermaLink="false">https://chrisrouffer.com//kali-persistent-usb/</guid><pubDate>Tue, 12 Feb 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/445d8c01f8c1d7fd05a30cce9935bbf1/ff346/brina-blum-156977-unsplash.jpg&quot;
